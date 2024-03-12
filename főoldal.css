@@ -1,0 +1,31 @@
+.buton{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: red;
+    }
+.buttton{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: red;
+    }
+    
