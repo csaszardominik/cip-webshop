@@ -7,17 +7,28 @@
     <title>cipo</title>
     <link rel="stylesheet" href="főoldal.css">
 </head>
-
 <style>
-
+.nike{
+    color: black;
+    display:inline-block;
+    height:30px;
+    background-color:lightgrey;
+    padding: 10px;
+    border-radius: 12px;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
 </style>
+
 <body background="./képek/hatter.png">
     <header style="display: flex; justify-content:space-around; height: 3rem">
-    <div>
-        icon
-    </div>
-    <input type="text" style="width:30%;">
     
+        <div>
+            <img  src="/képek/logo (1).png" alt="logó" 
+            width="100">
+    </div>
+    <input type="text" style="width:30%;">   
 
     <button>
         help
@@ -40,7 +51,16 @@
 </button>
 </center>
 <br>
-<img src="./képek/fejleckep.png" alt="">
-
+<img class="fejleckep" src="./képek/fejleckep.png" alt="" >
+<div>
+<p class="nepszerugomb1">Népszerű</p>
+<p class="bestsellergomb1">Bestseller</p>
+</div>
+<div>
+    <p class="nike">Nike</p>
+    <p class="airforce">Nike Air Force 1</p>
+    <p class="blazer">Nike Blazer</p>
+    <p class="dunk">Nike Dunk</p>
+</div>
 </body>
 </html>
