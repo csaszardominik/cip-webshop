@@ -67,9 +67,7 @@
   justify-content:center;
   align-items: center;
 }
-.nike{
 
-}
 .cipo1160k{
 padding-left: 40px;
 justify-content: space-around;
@@ -81,12 +79,68 @@ width: 70px;
 padding-right: 40px;
 text-align: center;
 }
-.elsocipo{
-  float: left;
+.cipo243k{
+  padding-left: 40px;
+justify-content: space-around;
+background-color: lightgrey;
+border-color: black;
+color: black;
+border-radius: 12px;
+width: 70px;
+padding-right: 40px;
+text-align: center;
 }
-.masodikcipo{
- 
+.cipo390k{
+  padding-left: 40px;
+  justify-content: space-around;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+  border-radius: 12px;
+  width: 70px;
+  padding-right: 40px;
+  text-align: center;
 }
+.cipo465k{
+  padding-left: 40px;
+  justify-content: space-around;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+  border-radius: 12px;
+  width: 70px;
+  padding-right: 40px;
+  text-align: center;
+}
+.cipo550k{
+  padding-left: 40px;
+  justify-content: space-around;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+  border-radius: 12px;
+  width: 70px;
+  padding-right: 40px;
+  text-align: center;
+}
+.cipo6190k{
+  padding-left: 40px;
+  justify-content: space-around;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+  border-radius: 12px;
+  width: 70px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 .oszlop {
   float: left;
   width: 33.33%;
