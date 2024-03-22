@@ -70,3 +70,38 @@
 .nike{
 
 }
+.cipo1160k{
+padding-left: 40px;
+justify-content: space-around;
+background-color: lightgrey;
+border-color: black;
+color: black;
+border-radius: 12px;
+width: 70px;
+padding-right: 40px;
+text-align: center;
+}
+.elsocipo{
+  float: left;
+}
+.masodikcipo{
+ 
+}
+.oszlop {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.sor::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sor {
+  display: flex;
+}
+
+.oszlop {
+  flex: 33.33%;
+  padding: 5px;
+}
