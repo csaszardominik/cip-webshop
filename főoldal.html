@@ -1,102 +1,88 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cipo</title>
-    <link rel="stylesheet" href="főoldal.css">
-</head>
-<style>
+    <link rel="stylesheet" href="főoldal.css" />
+  </head>
+  <style></style>
 
-</style>
+  <body background="./képek/hatter.png" style="margin: 0px">
+    <header style="display: flex; justify-content: space-around; height: 3rem">
+      <div>
+        <img src="/képek/logo (1).png" alt="logó" width="100" />
+      </div>
+      <input type="text" style="width: 30%" />
 
-<body background="./képek/hatter.png">
-    <header style="display: flex; justify-content:space-around; height: 3rem">
-    
-        <div>
-            <img  src="/képek/logo (1).png" alt="logó" 
-            width="100">
-    </div>
-    <input type="text" style="width:30%;">   
-
-    <button>
-        help
-    </button>
-    
+      <button>help</button>
     </header>
-    
-<br>
+    <br />
+    <div style="display: flex; justify-content: space-evenly; gap: 50px">
+      <button class="button">
+        <strong>Women</strong>
+      </button>
+      <button class="button" onclick="window.location.href = 'ferficipo.html';">
+        <strong>Men</strong>
+      </button>
+    </div>
+    <br />
+    <img class="fejleckep" src="./képek/fejleckep.png" alt="" />
+    <p class="nepszerugomb1">Népszerű</p>
+    <div
+      style="
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        gap: 30px;
+      "
+    >
+      <div class="oszlop">
+        <img src="./képek/cipo 1.png" alt="jordan4unc" />
+        <p class="arcimke">160.000 Ft</p>
+      </div>
+      <div class="oszlop">
+        <img src="./képek/cipo 2.png" alt="pandadunk" />
+        <p class="arcimke">43.000 Ft</p>
+      </div>
+      <div class="oszlop">
+        <img src="./képek/cipo 3.png" alt="jordan1blue" />
+        <p class="arcimke">90.000 Ft</p>
+      </div>
+    </div>
 
-<center>
-    <button class="buttton">
-   <strong>Women</strong> 
-</button>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button class="buton">
-<strong>Men</strong> 
-</button>
-</center>
-<br>
-<img class="fejleckep" src="./képek/fejleckep.png" alt="" >
-<p class="nepszerugomb1">Népszerű</p>
-<div class="sor">
-    <div class="oszlop">
-      <img src="./képek/cipo 1.png" alt="jordan4unc">
-    </div>
-    <div class="oszlop">
-      <img src="./képek/cipo 2.png" alt="pandadunk" >
-    </div>
-    <div class="oszlop">
-      <img src="./képek/cipo 3.png" alt="jordan1blue" >
-    </div>
-  </div>
-<div>
-    <div>
-        <p class="cipo1160k">160.000 Ft</p>
-    </div>
-    <div>
-        <p class="cipo243k">43.000 Ft</p>
-    </div>
-    <div>
-        <p class="cipo390k">90.000 Ft</p>
-    </div>
-</div>
 
-<p class="bestsellergomb1">Bestseller</p>
-<div class="sor">
-    <div class="oszlop">
-      <img src="./képek/cipo 4.png" alt="jordan1white">
+    <p class="bestsellergomb1">Bestseller</p>
+    <div class="sor">
+      <div class="oszlop">
+        <img src="./képek/cipo 4.png" alt="jordan1white" />
+      </div>
+      <div class="oszlop">
+        <img src="./képek/cipo 5.png" alt="dunkcian" />
+      </div>
+      <div class="oszlop">
+        <img src="./képek/cipo 6.png" alt="jordan6yellow" />
+      </div>
     </div>
-    <div class="oszlop">
-      <img src="./képek/cipo 5.png" alt="dunkcian" >
-    </div>
-    <div class="oszlop">
-      <img src="./képek/cipo 6.png" alt="jordan6yellow" >
-    </div>
-  </div>
 
-  <div>
     <div>
+      <div>
         <p class="cipo465k">65.000 Ft</p>
-    </div>
-    <div>
+      </div>
+      <div>
         <p class="cipo550k">50.000 Ft</p>
-    </div>
-    <div>
+      </div>
+      <div>
         <p class="cipo6190k">190.000 Ft</p>
+      </div>
     </div>
-</div>  
 
-<div>
-    <p class="nike">Nike</p>
-    <p class="airforce">Nike Air Force 1</p>
-    <p class="blazer">Nike Blazer</p>
-    <p class="dunk">Nike Dunk</p>
-</div>
-
-</body>
+    <div>
+      <p class="nike">Nike</p>
+      <p class="airforce">Nike Air Force 1</p>
+      <p class="blazer">Nike Blazer</p>
+      <p class="dunk">Nike Dunk</p>
+    </div>
+  </body>
 </html>
