@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="főoldal.css" />
   </head>
 <br>
-  <body background="./képek/hatter.png" style="margin: 0px">
-    <header style="display: flex; justify-content: space-around; height: 3rem">
-      <div>
-        <img src="/képek/logo (1).png" alt="logó" width="100" />
-      </div>
-      <input type="text" style="width: 30%" />
+  <body 
+    background="./képek/hatter.png" 
+    style="margin: 0px; background-size: auto 100%;">
+    <header
+    style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="/képek/logo (1).png" alt="logó" class="logo" />
+    <input type="text" class="input-field" />
 
-      <button onclick="window.location.href = 'help.html';">help</button>
+      <button onclick="window.location.href = 'help.html';" class="helpgomb;">help</button>
     </header>
     <br />
     <div style="display: flex; justify-content: space-evenly; gap: 50px">
@@ -30,7 +31,7 @@
     <br>
     <img class="fejleckep" src="./képek/fejleckep.png" alt="" />
     <p class="nepszerugomb1">Népszerű</p>
-    <div
+    <div class="mobil"
       style="
         display: flex;
         justify-content: space-evenly;
@@ -67,7 +68,8 @@
 
     <p class="bestsellergomb1">Bestseller</p>
 
-    <div style="
+    <div class="mobil"
+    style="
     display: flex;
     justify-content: space-evenly;
     padding: 0 30px;
@@ -99,13 +101,6 @@
           <img src="./képek/cipo 12.png" alt="">
           <p class="arcimke">61.000 Ft</p>
         </div>
-    </div>
-
-    <div>
-      <p class="nike">Nike</p>
-      <p class="airforce">Nike Air Force 1</p>
-      <p class="blazer">Nike Blazer</p>
-      <p class="dunk">Nike Dunk</p>
     </div>
   </body>
 </html>

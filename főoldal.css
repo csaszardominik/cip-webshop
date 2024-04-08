@@ -1,24 +1,54 @@
 .button {
-  text-align: center;
   justify-content: space-around;
-  display: flex;
   border: none;
   color: black;
-  padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   background-color: red;
-  width: 150px;
+  width: 130px;
+  height: 30px;
 }
 
+/* Stílusok csak pcre */
+@media screen and (min-width: 768px)  {
+  .logo {
+    height: 100px;
+  }
+
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .helpgomb {
+    height: 40px;
+  }
+  .fejleckep {
+    height: 750px;
+  }
+}
+
+/* Stílusok csak mobilra */
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 30px;
+  }
+
+  .input-field {
+    width: 70%;
+    height: 14px;
+  }
+  .mobil {
+    flex-wrap: wrap;
+  }
+}
+
+
+  
+
+
 .fejleckep {
-  display: block;
   width: 100%;
-  height: 650px;
 }
 
 .nepszerugomb1 {
@@ -56,7 +86,6 @@
 }
 .oszlop {
   width: 33.33%;
-  padding: 5px;
   display: flex;
   flex-direction: column;
 }

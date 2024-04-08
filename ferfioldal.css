@@ -16,3 +16,18 @@
     clear: both;
     display: table;
 }
+
+/* Stílusok csak pcre */
+@media screen and (min-width: 768px)  {
+    .logo {
+      height: 100px;
+    }
+  
+    .input-field {
+      width: 70%;
+      height: 25px;
+    }
+    .helpgomb {
+      height: 40px;
+    }
+  }

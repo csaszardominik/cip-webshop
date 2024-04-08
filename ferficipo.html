@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="ferfioldal.css">
 </head>
 <br>
-<body background="./képek/hatter.png" style="margin: 0px">
-    <header style="display: flex; justify-content: space-around; height: 3rem">
+<body background="./képek/hatter.png" style="margin: 0px; background-size: auto 100%;">
+    <header style="display: flex; justify-content: space-around; align-items: center;">
         <div>
-          <img src="/képek/logo (1).png" alt="logó" width="100" />
+          <img src="/képek/logo (1).png" alt="logó" class="logo" />
         </div>
-        <input type="text" style="width: 30%" />
+        <input type="text" class="input-field" />
   
-        <button onclick="window.location.href = 'help.html';">help</button>
+        <button onclick="window.location.href = 'help.html';" class="helpgomb;">help</button>
       </header>
 
 <br>
@@ -23,39 +23,42 @@
 <br>
 <br>
 <br>
-<img class="ferficipo" src="./képek/ferficipo.png" alt="">
-<div style="
-display: flex;
-justify-content: space-evenly;
-padding: 0 30px;
-gap: 30px;
-"
+<div style="display: flex; flex-direction: row;">
+    <img class="ferficipo" src="./képek/ferficipo.png" alt="">
+    <div 
+      style="
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        gap: 30px;
+        "
 >
-    <div class="oszlop">
-        <img src="./képek/cipo 1.png" alt="jordan4unc" />
-        <p class="arcimke">160.000 Ft</p>
-    </div>
-    <div class="oszlop">
-        <img src="./képek/cipo 2.png" alt="pandadunk" />
-        <p class="arcimke">43.000 Ft</p>
-    </div>
-    <div class="oszlop">
-        <img src="./képek/cipo 3.png" alt="jordan1blue" />
-        <p class="arcimke">90.000 Ft</p>
-    </div>
-    <div class="oszlop">
-        <img src="./képek/cipo 4.png" alt="">
-        <p class="arcimke">130.000 Ft</p>
-    </div>
-    <div class="oszlop">
-        <img src="./képek/cipo 5.png" alt="">
-        <p class="arcimke">60.000 Ft</p>
-    </div>
-    <div class="oszlop">
-        <img src="./képek/cipo 6.png" alt="">
-        <p class="arcimke">200.000 Ft</p>
-    </div>
-</div>
+            <div class="oszlop">
+                <img src="./képek/cipo 1.png" alt="jordan4unc" />
+                <p class="arcimke">160.000 Ft</p>
+            </div>
+            <div class="oszlop">
+                <img src="./képek/cipo 2.png" alt="pandadunk" />
+                <p class="arcimke">43.000 Ft</p>
+            </div>
+            <div class="oszlop">
+                <img src="./képek/cipo 3.png" alt="jordan1blue" />
+                <p class="arcimke">90.000 Ft</p>
+            </div>
+            <div class="oszlop">
+                <img src="./képek/cipo 4.png" alt="">
+                <p class="arcimke">130.000 Ft</p>
+            </div>
+            <div class="oszlop">
+                <img src="./képek/cipo 5.png" alt="">
+                <p class="arcimke">60.000 Ft</p>
+            </div>
+            <div class="oszlop">
+                <img src="./képek/cipo 6.png" alt="">
+                <p class="arcimke">200.000 Ft</p>
+            </div>
 
+        </div>
+    </div>
 </body>
 </html>
