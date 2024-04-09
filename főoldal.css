@@ -11,7 +11,7 @@
 }
 
 /* Stílusok csak pcre */
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 769px)  {
   .logo {
     height: 100px;
   }
@@ -20,16 +20,35 @@
     width: 70%;
     height: 25px;
   }
-  .helpgomb {
-    height: 40px;
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
   }
   .fejleckep {
-    height: 750px;
+    height: 725px;
+  }
+}
+
+/* Stílusok csak tabletre */
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .logo {
+    height: 100px;
+  }
+
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 /* Stílusok csak mobilra */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .logo {
     height: 30px;
   }
@@ -38,13 +57,13 @@
     width: 70%;
     height: 14px;
   }
-  .mobil {
-    flex-wrap: wrap;
-  }
-}
-
-
   
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+  }
+}  
 
 
 .fejleckep {
@@ -84,11 +103,7 @@
   justify-content: center;
   align-items: center;
 }
-.oszlop {
-  width: 33.33%;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .arcimke {
   text-align: center;
