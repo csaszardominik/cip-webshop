@@ -46,7 +46,9 @@
 
   
 
-
+.mobil {
+  display: flex;
+}
 .fejleckep {
   width: 100%;
 }
@@ -119,4 +121,22 @@
   width: 100px;
   background-color:lightgray;
   padding-left: 25cm;
+}
+
+
+
+.hirlevel{  
+  
+  display: flex;
+  justify-content: flex-end;
+  /* width: 6cm; */
+  font-size: large;
+  /* padding-left:25cm; */
+}
+
+
+#hszoveg {
+  justify-content: center;
+  width: 275px;
+  background-color: white;
 }
