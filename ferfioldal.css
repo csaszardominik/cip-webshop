@@ -29,4 +29,6 @@
     .helpgomb {
       height: 40px;
     }
-  }
+.logo{
+  border-radius: 50%;
+}
