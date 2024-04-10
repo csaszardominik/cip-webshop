@@ -3,7 +3,6 @@
 }
 .oszlop {
     width: 33.33%;
-    padding: 5px;
     display: flex;
     flex-direction: column;
   }
@@ -30,4 +29,12 @@
     .helpgomb {
       height: 40px;
     }
-  }
+.logo{
+  border-radius: 50%;
+  size: 30%;
+}
+.help{
+  height: fit-content;
+  font-size: 170%;
+}
+}
