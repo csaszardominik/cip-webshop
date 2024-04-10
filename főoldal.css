@@ -52,8 +52,8 @@
 /* Stílusok csak mobilra */
 @media screen and (max-width: 320px) {
   .logo {
-    height: 30px;
     border-radius: 50%;
+    size: 30%;
   }
 
   .input-field {
@@ -68,7 +68,9 @@
   }
 }  
 
-
+.mobil {
+  display: flex;
+}
 .fejleckep {
   width: 100%;
 }
@@ -135,7 +137,19 @@
   background-color:lightgray;
   padding-left: 25cm;
 }
-.helpbutton{
-  font-size: medium;
-  height: fit-content;
+
+
+
+.hirlevel{  
+  
+  display: flex;
+  justify-content: flex-end;
+  font-size: large;
+}
+
+
+#hszoveg {
+  justify-content: center;
+  width: 275px;
+  background-color: white;
 }
