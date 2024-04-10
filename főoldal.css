@@ -3,15 +3,37 @@
   border: none;
   color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 190%;
   cursor: pointer;
   background-color: red;
   width: 130px;
-  height: 30px;
+  height: fit-content;
+  
 }
 
 /* Stílusok csak pcre */
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 769px)  {
+  .logo {
+    height: 100px;
+    border-radius: 90%;
+  }
+
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fejleckep {
+    height: 725px;
+  }
+}
+
+/* Stílusok csak tabletre */
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .logo {
     height: 100px;
   }
@@ -20,31 +42,31 @@
     width: 70%;
     height: 25px;
   }
-  .helpgomb {
-    height: 40px;
-  }
-  .fejleckep {
-    height: 750px;
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 /* Stílusok csak mobilra */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .logo {
-    height: 30px;
+    border-radius: 50%;
+    size: 30%;
   }
 
   .input-field {
     width: 70%;
     height: 14px;
   }
-  .mobil {
-    flex-wrap: wrap;
-  }
-}
-
-
   
+  .oszlop {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+  }
+}  
 
 .mobil {
   display: flex;
@@ -59,15 +81,14 @@
   padding-top: 2px;
   padding-bottom: 2px;
   border-color: black;
-  justify-content: space-around;
-  height: 20px;
-  width: 75px;
+  justify-content: left;
+  height: 40px;
+  width: 110px;
   background-color: lightgrey;
   border-radius: 12px;
-  text-align: center;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
+  font-size: 180%;
+  height: fit-content;
+  text-align: left;
 }
 
 .bestsellergomb1 {
@@ -78,19 +99,13 @@
   border-color: black;
   justify-content: space-around;
   height: 20px;
-  width: 75px;
+  width: 120px;
   background-color: lightgrey;
   border-radius: 12px;
-  text-align: center;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
+  height: fit-content;
+  font-size: 180%;
 }
-.oszlop {
-  width: 33.33%;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .arcimke {
   text-align: center;
@@ -129,9 +144,7 @@
   
   display: flex;
   justify-content: flex-end;
-  /* width: 6cm; */
   font-size: large;
-  /* padding-left:25cm; */
 }
 
 
