@@ -1,4 +1,4 @@
-.ferficipo {
+.noicipo {
   margin-left: 2%;
 }
 .oszlop {
@@ -15,7 +15,6 @@
   display: table;
 }
 
-/* Stílusok csak pcre */
 @media screen and (min-width: 768px)  {
   .logo {
     height: 100px;
@@ -35,7 +34,5 @@ size: 30%;
 .help{
 height: fit-content;
 font-size: 170%;
-}
-};
 }
 }
