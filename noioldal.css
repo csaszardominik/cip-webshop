@@ -1,40 +1,41 @@
 .ferficipo {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 .oszlop {
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
 .arcimke {
-    text-align: center;
-    background-color: white;
+  text-align: center;
+  background-color: white;
 }
 .sor::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* Stílusok csak pcre */
 @media screen and (min-width: 768px)  {
-    .logo {
-      height: 100px;
-    }
-  
-    .input-field {
-      width: 70%;
-      height: 25px;
-    }
-    .helpgomb {
-      height: 40px;
-    }
+  .logo {
+    height: 100px;
+  }
+
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .helpgomb {
+    height: 40px;
+  }
 .logo{
-  border-radius: 50%;
-  size: 30%;
+border-radius: 50%;
+size: 30%;
 }
 .help{
-  height: fit-content;
-  font-size: 170%;
+height: fit-content;
+font-size: 170%;
+}
+};
 }
 }
