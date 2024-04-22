@@ -4,6 +4,7 @@
 .oszlop {
     display: flex;
     flex-direction: column;
+    width: 20%;
   }
 .arcimke {
     text-align: center;

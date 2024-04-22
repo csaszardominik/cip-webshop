@@ -11,10 +11,15 @@
   
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* Stílusok csak pcre */
 @media screen and (min-width: 769px)  {
   .logo {
-    height: 100px;
+    width: 10%;
     border-radius: 90%;
   }
 
@@ -28,18 +33,21 @@
     flex-direction: column;
   }
   .fejleckep {
-    height: 725px;
+    width: 100%;
+  }
+  .footer-width {
+    width: 50%;
   }
 }
 
 /* Stílusok csak tabletre */
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .logo {
-    height: 100px;
+    width: 10%;
   }
 
   .input-field {
-    width: 70%;
+    width: 50%;
     height: 25px;
   }
   .oszlop {
@@ -47,13 +55,16 @@
     display: flex;
     flex-direction: column;
   }
+  .footer-width {
+    width: 50%;
+  }
 }
 
 /* Stílusok csak mobilra */
 @media screen and (max-width: 320px) {
   .logo {
     border-radius: 50%;
-    size: 30%;
+    width: 30%;
   }
 
   .input-field {
@@ -62,15 +73,15 @@
   }
   
   .oszlop {
-    width: 13%;
+    width: 25%;
     display: flex;
     flex-direction: column;
   }
+  .footer-width {
+    width: 50%;
+  }
 }  
 
-.mobil {
-  display: flex;
-}
 .fejleckep {
   width: 100%;
 }
@@ -127,7 +138,7 @@
 }
 .feliratkozas{
   justify-content: flex-end;
-  padding-left: 18cm;
+  padding-left: 18px;
   
 }
 .rectangle {
@@ -135,7 +146,7 @@
   height: 50px;
   width: 100px;
   background-color:lightgray;
-  padding-left: 25cm;
+  padding-left: 25px;
 }
 
 
