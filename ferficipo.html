@@ -8,23 +8,19 @@
 </head>
 <br>
 <body background="./képek/hatter.png" style="margin: 0px; background-size: auto 100%">
-    <header style="display: flex; justify-content: space-around; height: 3rem">
-        <div>
-          <img class="logo" src="/képek/logo (1).png" alt="logó" width="100" />
-        </div>
-        <input type="text" style="width: 30%;" />
-  
-        <button class="help" onclick="window.location.href = 'help.html';">help </button>
-      </header>
+    <header
+    style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="/képek/logo (1).png" alt="logó" class="logo" />
+    <input type="text" class="input-field" />
 
-<br>
-<br>
-<br>
-<br>
+      <button class="helpbutton" onclick="window.location.href = 'help.html';"
+      style="height: 30px;"
+      >help</button>
+    </header>
 <br>
 <br>
 <div style="display: flex; flex-direction: row;">
-    <img class="ferficipo" src="./képek/ferficipo.png" alt="">
+    <img class="ferficipo hide-big-pic-on-tablet-and-phone" src="./képek/ferficipo.png" alt="">
     <div 
       style="
         display: flex; 
@@ -101,7 +97,7 @@
     </div>
     <div>
         <div style="display: flex; justify-content: flex-end;">
-            <div style="width: 20%">
+            <div class="footer-width">
                 <p style="width: 50%; background-color: white; margin: 5px 0;">
                     Iratkozzon fel hírlevelünkre
                 </p>

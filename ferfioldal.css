@@ -1,11 +1,12 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .ferficipo {
     margin-left: 2%;
 }
-.oszlop {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-  }
+
 .arcimke {
     text-align: center;
     background-color: white;
@@ -37,4 +38,78 @@
   height: fit-content;
   font-size: 170%;
 }
+.footer-width {
+  width: 20%;
+}
+.oszlop {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+}
+
+/* Stílusok csak tabletre */
+@media screen and (min-width: 321px) and (max-width: 1366px) {
+  .logo {
+    height: 100px;
+  }  
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .helpgomb {
+    height: 40px;
+  }
+  .logo {
+    border-radius: 50%;
+    size: 30%;
+  }
+  .help {
+    height: fit-content;
+    font-size: 170%;
+  }
+  .hide-big-pic-on-tablet-and-phone {
+    display: none;
+  }
+  .footer-width {
+    width: 30%;
+  }
+  .oszlop {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+}
+
+/* Stílusok csak mobilra */
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 20%;
+  }  
+  .input-field {
+    width: 70%;
+    height: 25px;
+  }
+  .helpgomb {
+    height: 40px;
+  }
+  .logo {
+    border-radius: 50%;
+    size: 30%;
+  }
+  .help {
+    height: fit-content;
+    font-size: 170%;
+  }
+  .hide-big-pic-on-tablet-and-phone {
+    display: none;
+  }
+  .footer-width {
+    width: 55%;
+  }
+  .oszlop {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
 }
